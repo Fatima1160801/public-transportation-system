@@ -1,0 +1,264 @@
+.map{
+    
+    height: 250px;
+    width: auto;
+    background-image:url(../image/map.PNG);
+}
+.route{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.contant{
+    
+    position:fexied;
+    height: 50px ;
+    width: auto;
+    border: none;
+}
+.Pickup1{
+    margin-top:30px;
+    margin-bottom: 10px;
+}
+.buses{
+    margin-left: 50px;
+    height:395px ;
+    width: 543px;
+}
+.route_and_ounry{
+ 
+    background-color: white;
+    height: 30px;
+    width: 180px;
+    text-align: center;
+    margin-top:10px ;
+    margin-left: 200px;
+    
+}
+.page-contant{
+    background-color:white;
+    height: 600px;
+    width: 1200px;
+    margin-left: 70px;
+    display: flex;
+    overflow: hidden;
+}
+
+.booking{
+    background-color:white;
+    height: 500px;
+    border:solid;
+    border-color: rgb(231, 231, 231);
+}
+
+.booking_pickup{
+    margin-top:30px;
+
+    display: flex;
+    
+}
+.margineinput{
+    margin-right: 20px;
+    margin-left:40px;
+}
+.fatima{
+    background-color:white;
+    height: 500px;
+    width: 543px;
+    margin-left: 40px;
+    border:solid;
+    border-color: rgb(231, 231, 231);
+    
+    
+}
+.booking_pickup .pickup_date{
+    margin-right: 30px;
+    margin-left: 20px;
+
+}
+.booking_pickup .pickup_time{
+    margin-right: 20px;
+}
+.ig{
+    margin-top:15px ;
+}
+.text-pickup{
+    margin-right: 10px;
+    margin-left:15px;
+}
+.Pickup{
+    margin-top:30px;
+    margin-bottom: 0px;
+    margin-right: 10px;
+}
+.num{
+    margin-left:20px;
+    padding-right:20px ;
+}
+.numofpass{
+    margin-left:5px;
+    margin-top:30px;
+    margin-right: 5px;
+}
+.btnwd{
+    width: 170px;
+    background-color: #F2F2F2;
+}
+.luggage{
+    margin-top:30px;
+}
+.Payment{
+    margin-top:30px ;
+    margin-bottom:20px ;
+}
+.GetQuote{
+    margin-top:40px;
+    margin-left:350px ;
+}
+.wd{
+    width: 150px;
+    height: 50px;
+    text-align: center;
+}
+.yourJourneylabel{
+    width: 700px;
+    text-align: center;
+    
+    
+}
+.buses-yourJourney{
+    width: 390px;
+    margin-top: 30px;
+}
+.yourcontent{
+    margin-top: 30px;
+    display: flex;
+    width: 700px;
+    height: 100px;
+    padding-left: 5px;
+    margin-left: 30px;
+
+    
+
+}
+
+.paddwid{
+    width: 230px;
+    margin-left:20px ;
+}
+.Price{
+    height: 470px;
+    width: 700px;
+    margin-top: 30px;
+    
+    border: #F2F2F2 solid;
+    margin-left: 30px;
+}
+.alertsize{
+    margin-left:10px;
+    margin-right:10px ;
+    margin-top:15px ;
+    height: 80px;
+
+}
+.pricebookbutton{
+    margin-left:490px;
+}
+.malabel{
+    margin-left: 500px;
+}
+.ed-can-book{
+    
+    display: flex;
+}
+.lama{
+    height: 385px;
+    width: 877px;
+    margin-top:20px;
+    margin-left:20px;
+    border:#f2f2f2d8 solid;
+    
+}
+.head{
+background-color:#f2f2f2d8;
+border-style: solid;
+border-color: #f2f2f2d8;
+height:50px;
+display:flex;
+
+}
+.BookingConfirmation{
+    margin-right: 400px;
+}
+
+.bdy{
+background-color:white;
+border-style: solid;
+border-color: #f2f2f2d8;
+height: 245px;
+
+}
+.bookedpickup{
+    margin-right: 30px;
+    margin-left:30px;
+}
+.bookedpickup1{
+    margin-right: 30px;
+    margin-left:30px;
+    margin-top:30px ;
+}
+.bdybook{
+    display: flex;
+}
+.foot{
+background-color:#f2f2f2d8;
+border-style: solid;
+border-color: #f2f2f2d8;
+height: 90px;
+display: flex;
+}
+.car{
+    margin-left:30px;
+    margin-right: 30px;
+}
+.actived{
+    background-image: url(../image/progress-car-active.png);
+    height: 36px;
+    width: 69.1px;
+    margin-right:100px ;
+
+    
+}
+.disactive{
+    background-image: url(../image/progress-car-normal.png);
+    height: 36px;
+    width: 69.1px;
+    margin-right:100px ;
+}
+.separate{
+size: 7px;
+margin-right:50px ;
+
+
+}
+.editcanclbook{
+    width: 300px;
+    height: 130px;
+    margin-bottom: 10px;
+    margin-top:20px;
+    margin-left:30px ;
+    border-style: solid;
+    border-color: #f2f2f2d8;
+
+
+}
+.bwd{
+    margin-left:30px;
+    margin-right:30px;
+    width: 220px;
+    margin-top:15px ;
+}
+.alt{
+    margin-top:80px;
+    width: 300px;
+    height: 150px;
+}
