@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Confirm</title>
+    <meta name='description' content=''>
+    <meta charset='utf-8'>
+    <link rel='stylesheet' href='css/all.min.css'>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link type="text/css" rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Google+Sans:400,500,700">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+    <script src="chrome-extension://jfkjbfhcfaoldhgbnkekkoheganchiea/scripts/injected.js"></script>
+
+    <script src='js/jquery.min.js'></script>
+    <script src='js/popper.min.js'></script>
+    <script src='js/bootstrap.min.js'></script>
+    <link rel="stylesheet" href="css/stylecss.css">
+
+</head>
+
+<body>
+    <section class='home  ' id='home'>
+
+        <nav class="navbar text-primary navbar-expand-lg navbar-light bg-light fixed-top ">
+            <div class="container ">
+                <a class="navbar-brand text-warning" href="Home.html">BZUtransport</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse  " id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <!-- 
+                            <li class="nav-item">
+                        
+                               <a class="nav-link text-warning" href="#"><i class="fas fa-car-side"></i>NewBooking</a>
+                                
+                              </li>
+                            -->
+                        <li class="nav-item">
+                            <a class="nav-link text-warning" href="register.html"><i
+                                    class="fas fa-address-book"></i>Register</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-warning" href="login.html"><i
+                                    class="fas fa-sign-in-alt"></i>login</a>
+                        </li>
+
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+        <header class="vh-100   mt-5">
+
+            <div class="map">
+            </div>
+            <div class="contant bg-warning route ">
+
+                <button class="route_and_ounry text-warning">Trips details</button>
+                <button class="route_and_ounry text-warning">Confirm</button>
+                <button class="route_and_ounry text-warning">Booked</button>
+
+
+            </div>
+            <div class="page-contant">
+                <div class="buses-yourJourney">
+                    <div class="nav nav-tabs " id="nav-tab" role="tablist">
+                        <a class="nav-link active yourJourneylabel text-warning" id="nav-home-tab" data-bs-toggle="tab"
+                            href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Your Journey</a>
+
+
+
+                    </div>
+                    <div class="booking">
+
+                        <div class="book">
+
+                            <div class="text-pickup">
+                                <label class="Pickup"> <i class="fas fa-map-marker-alt"></i>Pickup Location</label>
+
+
+
+                            </div>
+                            <div class="text-pickup">
+                                <label class="Pickup"> <i class="fas fa-map-marker-alt"></i> Drop off </label>
+
+
+                            </div>
+                            <div class="booking_pickup">
+                                <div class="pickup_date">
+                                    <label> <i class="far fa-calendar-alt"></i> pickup date</label><br><br>
+
+                                    <label> <i class="far fa-clock"></i>pickup time </label><br>
+
+                                </div>
+
+
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+                <div class="yourj">
+                    <div class="yourcontent">
+                        <div class="paddwid">
+                            <label><i class="fas fa-user"></i> Full name</label>
+                            <input type="text" class="info" placeholder="your full name">
+                        </div>
+                        <div class="paddwid">
+                            <label><i class="far fa-envelope"></i> Your email</label>
+                            <input type="text" class="info" placeholder="your email">
+                        </div>
+                        <div class="paddwid">
+                            <label><i class="fas fa-phone"></i> Phone no.</label>
+                            <input type="text" class="info" placeholder="your phone no.">
+                        </div>
+
+
+                    </div>
+                    <div class="Price">
+                        <div class="nav nav-tabs " id="nav-tab" role="tablist">
+                            <a class="nav-link active yourJourneylabel text-warning" id="nav-home-tab" data-bs-toggle="tab"
+                                href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Your Journey</a>
+                        </div>
+                        <div class="alert alert-warning alertsize" role="alert">
+                            Price
+                            <label class="malabel">(estimated) £2.90</label>
+                          </div>
+                          <div class="alert alert-warning alertsize" role="alert">
+                            Gratuity
+                            <label class="malabel">£0.00</label>
+                          </div>
+                          <div class="alert alert-warning alertsize" role="alert">
+                             Total 
+                             <label class="malabel">£2.90</label>
+                          </div>
+                          <div class="alert bg-light " role="alert">
+                            <div class="pricebookbutton">
+                                <a class="btn btn-warning wd" href="Newbooking-booked.html" role="button "><i class="far fa-hand-point-right"></i> BOOKING</a>
+                              </div>
+                          </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </header>
+
+
+
+</body>
+
+</html>
